@@ -55,7 +55,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "http://localhost:5173",
-      "https://deployment-test-frontend-ruby.vercel.app/"
+      "https://deployment-test-frontend-ruby.vercel.app"
     ],
     //  methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     // allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With"],
