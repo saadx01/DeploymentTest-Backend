@@ -1,0 +1,87 @@
+# config:
+#   target: "http://localhost:4000"
+#   phases:
+#     - duration: 30   # Run test for 60 seconds
+#       arrivalRate: 100 # 10 users per second
+# scenarios:
+#   - name: "Get All Users"
+#     flow:
+#       - get:
+#           url: "/api/v1/user/all"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# config:
+#   target: "http://localhost:4000/api/v1/user"
+#   phases:
+#     - duration: 60
+#       arrivalRate: 1
+#       rampTo: 5
+#       name: Warm-up users
+#     - duration: 60
+#       arrivalRate: 5
+#       rampTo: 10
+#       name: Moderate load
+#     - duration: 30
+#       arrivalRate: 10
+#       rampTo: 20
+#       name: Spike load
+#   plugins:
+#     ensure:
+#       thresholds:
+#         - http.response_time.p99: 4000
+#         - http.response_time.p95: 3000
+#     metrics-by-endpoint: {}
+
+# scenarios:
+#   - name: Test User Login and Get All
+#     flow:
+#       - post:
+#           url: "/login"
+#           json:
+#             email: "muhammadjahangir643@gmail.com"
+#             password: "jk123456"
+#       - get:
+#           url: "/all"
+#   - name: Register New User
+#     flow:
+#       - post:
+#           url: "/new"
+#           headers:
+#             Content-Type: multipart/form-data
+#           formData:
+#             name: "Load Tester"
+#             email: "loaduser+{{ $uuid }}@example.com"
+#             password: "password123"
+#             role: "user"
+#             image:
+#               type: file
+#               path: "./dummy-image.jpg"
+#   - name: Refresh Token Flow
+#     flow:
+#       - post:
+#           url: "/refresh-token"
+#           json:
+#             refreshToken: "some_dummy_refresh_token"
+

@@ -1,0 +1,29 @@
+[2025-07-09T11:23:11.747Z] error: This is an error message
+[2025-07-09T11:28:58.328Z] error: This is an error message
+[2025-07-16T09:39:50.565Z] error: unhandledRejection: querySrv EREFUSED _mongodb._tcp.cluster0.fepgfy5.mongodb.net
+Error: querySrv EREFUSED _mongodb._tcp.cluster0.fepgfy5.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)
+[2025-07-16T09:39:58.317Z] error: unhandledRejection: queryTxt EREFUSED cluster0.fepgfy5.mongodb.net
+Error: queryTxt EREFUSED cluster0.fepgfy5.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)
+[2025-07-16T09:40:34.576Z] error: unhandledRejection: queryTxt EREFUSED cluster0.fepgfy5.mongodb.net
+Error: queryTxt EREFUSED cluster0.fepgfy5.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)
+[2025-07-16T09:40:53.098Z] error: unhandledRejection: querySrv EREFUSED _mongodb._tcp.cluster0.fepgfy5.mongodb.net
+Error: querySrv EREFUSED _mongodb._tcp.cluster0.fepgfy5.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)
+[2025-07-16T09:41:54.529Z] error: unhandledRejection: querySrv EREFUSED _mongodb._tcp.cluster0.fepgfy5.mongodb.net
+Error: querySrv EREFUSED _mongodb._tcp.cluster0.fepgfy5.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)
+[2025-07-16T09:42:20.190Z] error: unhandledRejection: queryTxt EREFUSED cluster0.fepgfy5.mongodb.net
+Error: queryTxt EREFUSED cluster0.fepgfy5.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)
+[2025-07-16T09:43:28.115Z] error: unhandledRejection: queryTxt ECONNREFUSED cluster0.fepgfy5.mongodb.net
+Error: queryTxt ECONNREFUSED cluster0.fepgfy5.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)
+[2025-07-16T09:49:30.169Z] error: unhandledRejection: querySrv EREFUSED _mongodb._tcp.cluster0.fepgfy5.mongodb.net
+Error: querySrv EREFUSED _mongodb._tcp.cluster0.fepgfy5.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)
+[2025-07-16T09:49:39.923Z] error: unhandledRejection: queryTxt EREFUSED cluster0.fepgfy5.mongodb.net
+Error: queryTxt EREFUSED cluster0.fepgfy5.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)

@@ -1,0 +1,8 @@
+install these
+    npm install --save-dev jest supertest mongodb-memory-server
+
+This will install:
+    jest: testing framework
+    supertest: to test APIs (simulate requests)
+    mongodb-memory-server: fake DB for testing
+
